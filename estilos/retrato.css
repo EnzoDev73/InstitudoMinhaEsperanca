@@ -9,7 +9,7 @@
     top: 15px;  
 }
 header{
-    background-image: url('/imagens/fundo.png'); 
+    background-image: url("/imagens/fundo.png"); 
     background-repeat: no-repeat; 
     background-size: cover;
 }

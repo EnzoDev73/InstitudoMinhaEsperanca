@@ -11,9 +11,20 @@ nav{
     background-color: white;
 }
 
+#logo{
+    max-width: 150px;
+    margin: auto;
+    position: absolute;
+    left: 2%;
+    top: 15px;  
+}
+
 header{
     width: 100vw;
     height: 100vh;
+    background-image: url("../imagens/fundo.png"); 
+    background-repeat: no-repeat; 
+    background-size: contain;
 }
 
 header > p{
@@ -28,11 +39,11 @@ header > .botao{
     border-radius: 25px;  
     position: absolute;
     left: 36%;
-    top: 71%;   
-    
+    top: 71%;
 }
 
 .botao:hover{
     background-color: #9DB055;
     color: white;  
 }
+

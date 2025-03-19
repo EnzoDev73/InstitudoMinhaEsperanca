@@ -67,6 +67,7 @@ header > .botao{
 .pagina1 > p{
     color: white;
     font-family: 'Roboto';
+    line-height: 1.5;
     text-align: justify;
     padding: 0px 30px;
 }

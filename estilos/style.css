@@ -47,3 +47,13 @@ header > .botao{
     color: white;  
 }
 
+.pagina1{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0367A6;
+}
+
+.pagina1 > h1{
+    color: black;
+}
+

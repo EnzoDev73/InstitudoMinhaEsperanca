@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+@media (min-width: 600px){
 nav{
 
 }
@@ -30,4 +31,5 @@ header p{
     position: absolute;
     left: 3%;
     top: 52%;
+}
 }

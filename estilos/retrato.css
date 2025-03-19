@@ -9,7 +9,7 @@
     top: 15px;  
 }
 header{
-    background-image: url(/imagens/background-color_221F73-_.webp); 
+    background-image: url('/imagens/background-color_221F73-_.webp'); 
     background-repeat: no-repeat; 
     background-size: cover;
 }

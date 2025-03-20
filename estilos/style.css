@@ -62,13 +62,21 @@ header > .botao{
     font-weight: bold;
     letter-spacing: 1px;
     padding: 30px 30px;
+    
 }
-
 .pagina1 > p{
     color: white;
     font-family: 'Roboto';
     line-height: 2;
     text-align: justify;
     padding: 0px 30px;
+}
+
+.img{
+    width: 390px;
+    height: 250px;
+    background-color: white ;
+    margin: auto;
+    margin-top: 50px;
 }
 

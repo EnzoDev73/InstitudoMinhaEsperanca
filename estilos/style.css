@@ -77,7 +77,7 @@ header{
         color: white;
         font-family: 'Roboto';
         line-height: 2;
-        text-align: justify;
+        text-align: left;
         padding: 0px 30px;
     }
 
@@ -114,7 +114,7 @@ header{
         color: black;
         font-family: 'Roboto';
         line-height: 2;
-        text-align: justify;
+        text-align: left;
         padding: 0px 30px;
     }
 }

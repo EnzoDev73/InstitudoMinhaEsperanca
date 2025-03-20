@@ -82,7 +82,7 @@ header{
     }
 
     & .foto{
-        width: 335px;
+        width: 300px; 
         height: 200px;
         background-image: url('../imagens/foto\ 1.jpg');
         background-size: cover;  

@@ -14,16 +14,16 @@ nav{
     background-color: white;
     border-bottom:  1px solid black;
     
-
-}
-
-#logo{
+    & .logo{ 
     max-width: 150px;
     margin: auto;
     position: absolute;
     left: 2%;
     top: 15px;  
 }
+}
+
+
 
 header{
     text-align: center;
@@ -32,51 +32,71 @@ header{
     background-image: url("../imagens/fundo.png"); 
     background-repeat: no-repeat; 
     background-size: contain;
-}
 
-header > .botao{
-    width: 144px;
-    height: 50px;
-    background-color: white;
-    border: 1px solid #9DB055 ; 
-    border-radius: 25px;  
-    position: relative;
-    top: 60%;
+    & .botao{
+        width: 144px;
+        height: 50px;
+        background-color: white;
+        border: 1px solid #9DB055 ; 
+        border-radius: 25px;  
+        position: relative;
+        top: 60%;
+        
+       
+    }
+
+    & .botao:hover{
+        background-color: #9DB055;
+        color: white;   
+    }  
     
+    & .seta-verde{
+        position: relative;
+        top: 74%; 
+    } 
 }
 
-.botao:hover{
-    background-color: #9DB055;
-    color: white;  
-}
+
 
 .pagina1{
+    text-align: center;
     width: 100vw;
     height: 100vh;
     background-color: #0367A6;
-}
 
-.pagina1 > h1{
+    & h1{
+    text-align: start;
     color: white;
     font-family: 'Poppins';
     font-weight: bold;
     letter-spacing: 1px;
     padding: 30px 30px;
-    
-}
-.pagina1 > p{
-    color: white;
-    font-family: 'Roboto';
-    line-height: 2;
-    text-align: justify;
-    padding: 0px 30px;
-}
+    }
 
-.img{
-    width: 390px;
-    height: 250px;
-    background-color: white ;
-    margin: auto;
-    margin-top: 50px;
-}
+    & p{
+        color: white;
+        font-family: 'Roboto';
+        line-height: 2;
+        text-align: justify;
+        padding: 0px 30px;
+    }
 
+    & .foto{
+        width: 390px;
+        height: 250px;
+        background-image: url('/imagens/foto\ 1.jpg');
+        background-size: cover;
+        margin: auto;
+        margin-top: 80px;
+    } 
+
+    & .seta-branco{
+        position: relative;
+        top: 13.5%;  
+    }
+} 
+
+.pagina2{
+    width: 100vw;
+    height: 100vh;
+}

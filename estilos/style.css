@@ -82,7 +82,7 @@ header{
     }
 
     & .foto{
-        width: 350px;
+        max-width: 83%;
         height: 200px;
         background-image: url('../imagens/foto\ 1.jpg');
         background-size: cover;  
@@ -93,7 +93,7 @@ header{
 
     & .seta-branco{
         position: relative;
-        top: 18%;  
+        top: 10%;  
     }
 } 
 

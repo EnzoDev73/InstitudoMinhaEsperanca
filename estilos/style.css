@@ -88,6 +88,7 @@ header{
         background-size: cover;
         margin: auto;
         margin-top: 80px;
+        border-radius: 10px 10px;
     } 
 
     & .seta-branco{

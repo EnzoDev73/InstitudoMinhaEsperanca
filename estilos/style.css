@@ -8,6 +8,10 @@
     margin: 0px
 }
 
+html{
+    scroll-behavior: smooth; 
+}
+
 nav{
     width: 100vw;
     height: 70px;
@@ -81,7 +85,7 @@ header{
         padding: 0px 30px;
     }
 
-    & .foto{
+    & #foto{
         max-width: 355px; 
         height: 200px;
         background-image: url('../imagens/foto\ 1.jpg');
@@ -116,5 +120,15 @@ header{
         line-height: 2;
         text-align: left;
         padding: 0px 30px;
+    }
+
+    & #foto2{
+        max-width: 355px; 
+        height: 200px;
+        background-image: url('../imagens/crianças.jpg');
+        background-size: cover;  
+        margin: auto;
+        margin-top: 60px;
+        border-radius: 10px 10px;
     }
 }

@@ -84,7 +84,7 @@ header{
     & .foto{
         width: 330px;
         height: 250px;
-        background-image: url('/imagens/foto\ 1.jpg');
+        background-image: url('../imagens/foto\ 1.jpg');
         background-size: cover;
         margin: auto;
         margin-top: 80px;

@@ -196,12 +196,30 @@ header{
         background-size: contain;
         background-repeat: no-repeat;
         position: relative;
-        top: 10%; 
+        top: 10%;
     } 
 }
 
 footer{
     width: 100vw;
-    height: 30vh;
-    background-color: #9DB055;
+    height: 40vh;
+    background-color: #0367A6;
+    font-family: 'Poppins';
+
+    & p{
+        color: white;
+        padding: 20px 0px 5px 30px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    & ul{
+        list-style: none;
+        padding: 0px;
+
+        & li{
+            padding: 5px 30px;
+           color: white; 
+        }
+    }
 }

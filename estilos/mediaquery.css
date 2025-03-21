@@ -1,8 +1,34 @@
 @charset "utf-8";
 
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 481px) and (max-width: 1024px){
+    nav{
+        height: 110px;
+        & .logo{
+            width: 200px; 
+            height: 80px;
+        }
+    }
+
     header{
+
+        & #fundo{
+            height: 41%;
+        }
     
-        
+        & .botao{
+            width: 230px;
+            height: 80px;
+            font-size: 1.3em;
+            border-radius: 40px;
+            font-family: 'Poppins';
+            top: 18%;
+        } 
+
+        & .seta-verde{
+            width: 75px;
+            top: 28%;
+        }
+    
     }
 }
+

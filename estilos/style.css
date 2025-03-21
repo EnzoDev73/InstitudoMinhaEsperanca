@@ -30,9 +30,17 @@ header{
     text-align: center;
     width: 100vw;
     height: 100vh;
-    background-image: url("../imagens/fundo.png"); 
-    background-repeat: no-repeat; 
-    background-size: contain;
+    
+    & #fundo{
+        width: 100%;
+        height: 32%; 
+       background-image: url("../imagens/fundo.png");
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center center; 
+       position: relative;
+       top: 19%; 
+    }
 
     & .botao{
         width: 144px;
@@ -41,7 +49,7 @@ header{
         border: 1px solid #9DB055 ; 
         border-radius: 25px;  
         position: relative;
-        top: 60%;
+        top: 20%;
         
        
     }
@@ -53,7 +61,7 @@ header{
     
     & .seta-verde{
         position: relative;
-        top: 70%; 
+        top: 35%; 
     } 
 }
 
@@ -84,7 +92,7 @@ header{
     }
 
     & #foto{
-        max-width: 280px; 
+        width: 80%; 
         height: 150px;
         background-image: url("../imagens/foto\ 1.jpg");
         background-size: cover;  
@@ -123,7 +131,7 @@ header{
     }
 
     & #foto2{
-        max-width: 280px; 
+        max-width: 80%; 
         height: 150px;
         background-image: url("../imagens/crianças.jpg");
         background-size: cover;  

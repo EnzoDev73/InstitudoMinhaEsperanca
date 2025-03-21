@@ -1,5 +1,8 @@
 @charset "utf-8";
 
-h1{
-    color: blue;
+@media screen and (min-width: 481px) and (max-width: 768px){
+    header{
+    
+        
+    }
 }

@@ -3,6 +3,7 @@
 @media screen and (min-width: 481px) and (max-width: 1024px){
     nav{
         height: 110px;
+
         & .logo{
             width: 200px; 
             height: 80px;
@@ -21,14 +22,57 @@
             font-size: 1.3em;
             border-radius: 40px;
             font-family: 'Poppins';
-            top: 18%;
+            top: 16%;
         } 
 
         & .seta-verde{
             width: 75px;
-            top: 28%;
+            top: 26%;
         }
     
     }
-}
 
+    #pagina1{
+
+        & h1{
+            padding: 60px 0px 30px 15%;
+            font-size: 1.6em;
+        }
+
+        & p{
+            font-size: 1.3em;
+            padding: 0px 15%;
+        }
+
+        & #foto{
+            width: 70%;
+            height: 250px;
+        }
+        & .seta-branco{
+            width: 75px;
+            top: 8%;
+        }
+    }
+
+    #pagina2{
+        & h1{
+            padding: 60px 0px 30px 15%;
+            font-size: 1.6em;
+        }
+
+        & p{
+            font-size: 1.3em;
+            padding: 0px 15%;
+        }
+
+        & #foto2{
+            width: 70%;
+            height: 250px;
+        }
+        & .seta-branco{
+            width: 75px;
+            top: 8%;
+    }
+    
+    }
+}

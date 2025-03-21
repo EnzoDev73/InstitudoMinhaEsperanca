@@ -5,7 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
-    margin: 0px
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 nav{
@@ -52,7 +53,7 @@ header{
     
     & .seta-verde{
         position: relative;
-        top: 74%; 
+        top: 70%; 
     } 
 }
 
@@ -78,22 +79,24 @@ header{
         font-family: 'Roboto';
         line-height: 2;
         text-align: left;
+        text-align: justify;
         padding: 0px 30px;
     }
 
     & #foto{
-        max-width: 355px; 
-        height: 200px;
+        max-width: 280px; 
+        height: 150px;
         background-image: url("../imagens/foto\ 1.jpg");
         background-size: cover;  
         margin: auto;
-        margin-top: 60px;
+        background-position: center center;
+        margin-top: 10%;
         border-radius: 10px 10px;
     } 
 
     & .seta-branco{
         position: relative;
-        top: 10%;  
+        top: 8%;  
     }
 } 
 
@@ -115,16 +118,17 @@ header{
         font-family: 'Roboto';
         line-height: 2;
         text-align: left;
+        text-align: justify;
         padding: 0px 30px;
     }
 
     & #foto2{
-        max-width: 355px; 
-        height: 200px;
+        max-width: 280px; 
+        height: 150px;
         background-image: url("../imagens/crianças.jpg");
         background-size: cover;  
         margin: auto;
-        margin-top: 60px;
+        margin-top: 10%;
         border-radius: 10px 10px;
     }
 }

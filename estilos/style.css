@@ -8,9 +8,6 @@
     margin: 0px;
     box-sizing: border-box;
 }
-html{
-    
-}
 
 
 nav{
@@ -45,7 +42,7 @@ nav{
         }
     }
     
-    & .logo{ 
+    & #logo{ 
 
             width: 100px;
             height: 50px;
@@ -221,5 +218,12 @@ footer{
             padding: 5px 30px;
            color: white; 
         }
+    }
+
+    #logo{
+        width: 100px;
+        height: 50px;
+        margin: auto;
+        background-image: url("../imagens/WhatsApp\ Image\ 2025-03-17\ at\ 21.11.34.jpeg");
     }
 }

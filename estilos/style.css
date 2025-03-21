@@ -99,7 +99,7 @@ header{
     & .seta-verde{
         margin: auto;
         width: 50px;
-        height: 85px;
+        height: 19vh;
         background-image: url("../imagens/seta-baixo-verde.png");
         background-size: contain;
         background-repeat: no-repeat;
@@ -147,7 +147,7 @@ header{
     & .seta-branco{
         margin: auto;
         width: 50px;
-        height: 85px;
+        height: 29vh;
         background-image: url("../imagens/seta-baixo-branco.png");
         background-size: contain;
         background-repeat: no-repeat;

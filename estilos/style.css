@@ -132,7 +132,7 @@ header{
 
     & #foto{
         width: 80%; 
-        height: 150px;
+        height: 24%;
         background-image: url("../imagens/foto\ 1.jpg");
         background-size: cover;  
         margin: auto;
@@ -177,7 +177,7 @@ header{
 
     & #foto2{
         max-width: 80%; 
-        height: 150px;
+        height: 24%;
         background-image: url("../imagens/crianças.jpg");
         background-size: cover;  
         margin: auto;

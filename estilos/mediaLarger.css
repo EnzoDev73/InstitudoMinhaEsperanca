@@ -38,11 +38,12 @@
 
     header{
 
-        height: 800px;
+        height: 720px;
 
         & #fundo{
             background-image: url("../imagens/fundo-grande.png");
             background-size: cover;
+            height: 290px;
         }
     
         & .botao{
@@ -51,13 +52,14 @@
             font-size: 1em;
             border-radius: 40px;
             font-family: 'Poppins';
-            top: 25%;
+            top: 27%;
         } 
 
         & .seta-verde{
             margin: auto;
             width: 50px;
-            top: 36%;
+            height: 8vh;
+            top: 32%;
         }
     
     }
@@ -65,15 +67,15 @@
     #pagina1{
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
+        align-content: center;
         
         height: 620px;
 
         & h1{
             width: 100%;
-            height: 100px;
-            margin-top: 66px;
-            padding: 55px 0px 0px 90px;
+            height: 40px;
+            margin-top: 10px;
+            padding: 0px 0px 0px 90px;
             font-size: 1.6em;
         }
 
@@ -88,13 +90,14 @@
         & #foto{
             width: 359px;
             height: 216px;
-            margin: 0px 140px 0px 24px;
+            margin: 0px 264px 0px 24px;
         }
         & .seta-branco{
             margin: auto;
             padding: 0px;
             width: 50px;
-            top: 21%;
+            height: 7vh;
+            top: 22%;
         }
     }
 

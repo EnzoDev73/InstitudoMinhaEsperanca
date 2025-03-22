@@ -4,7 +4,7 @@
     nav{
         height: 85px;
 
-        & .logo{
+        & #logo{
             width: 300px; 
             height: 200px;
         }

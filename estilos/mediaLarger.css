@@ -55,6 +55,7 @@
         } 
 
         & .seta-verde{
+            margin: auto;
             width: 50px;
             top: 36%;
         }
@@ -70,51 +71,66 @@
 
         & h1{
             width: 100%;
-            padding: 50px 0px 33px 70px;
+            height: 100px;
+            margin-top: 66px;
+            padding: 55px 0px 0px 90px;
             font-size: 1.6em;
         }
 
         & p{
             width: 50%;
-            padding: 0px 68px;
-            font-size: 1em;
+            margin: 0px 0px 0px 90px;
+            padding: 5px 106px 0px 0px;
+            font-size: 1.2em;
         
         }
 
         & #foto{
             width: 359px;
             height: 216px;
-            margin: 55px 144px 0px 134px
+            margin: 0px 140px 0px 24px;
         }
         & .seta-branco{
             margin: auto;
             padding: 0px;
-            width: 75px;
-            top: 8%;
+            width: 50px;
+            top: 21%;
         }
     }
 
     #pagina2{
 
-        height: 950px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+        height: 620px;
 
         & h1{
-            padding: 60px 0px 30px 15%;
+            width: 100%;
+            height: 100px;
+            margin-top: 66px;
+            padding: 55px 0px 0px 90px;
             font-size: 1.6em;
         }
 
         & p{
-            font-size: 1.3em;
-            padding: 0px 15%;
+            width: 50%;
+            margin: 0px 0px 0px 90px;
+            padding: 5px 106px 0px 0px;
+            font-size: 1.2em;
         }
 
         & #foto2{
-            width: 70%;
-            height: 250px;
+            width: 359px;
+            height: 216px;
+            margin: 0px 140px 0px 24px;
         }
         & .seta-verde{
-            width: 75px;
-            top: 8%;
+            margin: auto;
+            padding: 0px;
+            width: 50px;
+            top: 5%;
     }
     
     }

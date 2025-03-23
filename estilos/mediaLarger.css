@@ -94,8 +94,11 @@
         }
         & .seta-branco{
             width: 50px;
-            height: 8vh;
-            top: 16%;
+            height: 50px;
+            position: absolute;
+            top: 88%;
+            left: 50%;
+            transform: translate(-50%);
             
         }
     }
@@ -130,8 +133,11 @@
         }
         & .seta-verde{
             width: 50px;
-            height: 8vh;
-            top: 16%;
+            height: 50px;
+            position: absolute;
+            top: 131%;
+            left: 50%;
+            transform: translate(-50%);
     }
     
     }

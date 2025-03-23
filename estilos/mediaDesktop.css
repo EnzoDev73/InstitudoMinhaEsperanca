@@ -89,13 +89,16 @@
         & #foto{
             width: 359px;
             height: 216px;
-            margin: 66px 130px 0px 0px;
+            margin: 50px 125px 0px 0px;
 
         }
         & .seta-branco{
             width: 50px;
-            height: 8vh;
-            top: 16%;
+            height: 50px;
+            position: absolute;
+            top: 88%;
+            left: 50%;
+            transform: translate(-50%);
             
         }
     }
@@ -126,12 +129,15 @@
         & #foto2{
             width: 359px;
             height: 216px;
-            margin: 66px 130px 0px 0px;
+            margin: 50px 125px 0px 0px;
         }
         & .seta-verde{
             width: 50px;
-            height: 8vh;
-            top: 16%;
+            height: 50px;
+            position: absolute;
+            top: 131%;
+            left: 50%;
+            transform: translate(-50%);
     }
     
     }

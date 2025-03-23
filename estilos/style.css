@@ -80,9 +80,6 @@ header{
     }
 
     & .botao{
-  -webkit-appearance: none; /* Remove estilos do iOS */
-  -moz-appearance: none;
-  appearance: none;
         margin: auto;
         width: 144px;
         height: 50px;
@@ -96,7 +93,7 @@ header{
        
     }
 
-    & .botao:hover{
+    & .botao:active{
         background-color: #9DB055;
         color: white;   
     }  

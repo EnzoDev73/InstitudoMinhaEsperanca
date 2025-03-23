@@ -6,7 +6,7 @@
 
 *{
     margin: 0px;
-    box-sizing: border-box;
+    
     
 }
 
@@ -80,6 +80,7 @@ header{
     }
 
     & .botao{
+box-sizing: border-box;
         margin: auto;
         width: 144px;
         height: 50px;

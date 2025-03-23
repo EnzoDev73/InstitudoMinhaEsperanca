@@ -80,6 +80,8 @@ header{
     }
 
     & .botao{
+-webkit-appearance: none;
+  appearance: none;
 box-sizing: border-box;
 border: none;
 background: none;

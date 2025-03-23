@@ -1,10 +1,6 @@
 @charset "utf-8";
 
-@media screen and (min-width: 769px) and (max-width: 1280px){
-
-    *{
-        overflow-x: hidden;
-    }
+@media screen and (min-width: 769px) and (max-width: 1024px){
 
     nav{
         height: 85px;
@@ -73,13 +69,11 @@
         display: flex;
         flex-wrap: wrap;
         align-content: center;
-        
         height: 620px;
 
         & h1{
             width: 100vw;
-            height: 40px;
-            margin-top: 10px;
+            height: 21px;
             padding: 0px 0px 0px 90px;
             font-size: 1.6em;
         }
@@ -87,20 +81,22 @@
         & p{
             width: 50%;
             margin-left: 90px;
-            padding: 5px 106px 0px 0px;
+            padding: 46px 40px 0px 0px;
             font-size: 1.2em;
-        
+            
         }
 
         & #foto{
             width: 359px;
             height: 216px;
-            margin: 0px 264px 0px 24px;
+            margin: 66px 31px 0px 0px;
+
         }
         & .seta-branco{
             width: 50px;
-            height: 7vh;
-            top: 22%;
+            height: 8vh;
+            top: 16%;
+            
         }
     }
 
@@ -114,29 +110,28 @@
 
         & h1{
             width: 100vw;
-            height: 40px;
-            margin-top: 10px;
-            padding-left: 90px;
+            height: 21px;
+            padding: 0px 0px 0px 90px;
             font-size: 1.6em;
         }
 
         & p{
             width: 50%;
             margin-left: 90px;
-            padding: 5px 106px 0px 0px;
+            padding: 46px 40px 0px 0px;
             font-size: 1.2em;
+
         }
 
         & #foto2{
             width: 359px;
             height: 216px;
-            margin: 0px 264px 0px 24px;
+            margin: 66px 31px 0px 0px;
         }
         & .seta-verde{
-            margin: auto;
             width: 50px;
-            height: 7vh;
-            top: 21%;
+            height: 8vh;
+            top: 16%;
     }
     
     }

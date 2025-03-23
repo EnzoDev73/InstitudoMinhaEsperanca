@@ -7,6 +7,7 @@
 *{
     margin: 0px;
     box-sizing: border-box;
+    
 }
 
 
@@ -34,6 +35,10 @@ nav{
             font-size: 0.8em;
             border: 1px solid  ; 
             border-radius: 25px;  
+
+            & a{
+                text-decoration: none;
+            }
         }
 
         & li:hover{

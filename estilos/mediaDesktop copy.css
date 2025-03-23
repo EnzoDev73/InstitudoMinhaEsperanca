@@ -1,12 +1,12 @@
 @charset "utf-8";
 
-@media screen and (min-width: 1281px) and (max-width: 1920px){
+@media screen and (min-width: 1921px){
 
     nav{
-        height: 68px;
+        height: 85px;
 
         & #logo{
-            width: 110px; 
+            width: 140px; 
             height: 60px;
         }
 
@@ -20,8 +20,8 @@
             margin-right: 30px;
     
             & li{
-                width: 81px;
-                padding: 6px;
+                width: 100px;
+                padding: 10px;
                 background-color: #0367A6;
                 color: white;
                 font-family: 'Poppins';
@@ -39,31 +39,28 @@
 
     header{
 
-        height: 100vh;
-        width: 100vw;
+        height: 720px;
 
         & #fundo{
             background-image: url("../imagens/fundo-desktop.png");
             background-size: cover;
             height: 290px;
             width: 100vw;
-            position: relative;
-            top: 9%;
         }
     
         & .botao{
-            width: 140px;
-            height: 45px;
-            font-size: 0.9em;
+            width: 170px;
+            height: 50px;
+            font-size: 1em;
             border-radius: 40px;
             font-family: 'Poppins';
-            top: 15%;
+            top: 27%;
         } 
 
         & .seta-verde{
             width: 50px;
             height: 8vh;
-            top: 24%;
+            top: 32%;
         }
     
     }
@@ -78,11 +75,9 @@
         gap: 70px;
 
         & h1{
-            position: relative;
-            top: 10%;
             margin-left: 40px;
             width: 100vw;
-            height: 37px;
+            height: 21px;
             padding: 0px 0px 0px 90px;
             font-size: 1.6em;
         }
@@ -90,14 +85,14 @@
         & p{
             width: 50%;
             margin-left: 90px;
-            padding: 47px 42px 0px 42px;
+            padding: 46px 40px 0px 0px;
             font-size: 1.2em;
             
         }
 
         & #foto{
             width: 29vw;
-            height: 35vh;
+            height: 21vh;
             max-width: 524px;
             max-height: 229px;
             margin: 50px 125px 0px 0px;
@@ -106,7 +101,7 @@
         & .seta-branco{
             width: 50px;
             height: 50px;
-            top: 7%;
+            top: 12%;
             
         }
     }
@@ -121,11 +116,9 @@
         height: 620px;
 
         & h1{
-            position: relative;
-            top: 10%;
             margin-left: 40px;
             width: 100vw;
-            height: 37px;
+            height: 21px;
             padding: 0px 0px 0px 90px;
             font-size: 1.6em;
         }
@@ -133,14 +126,14 @@
         & p{
             width: 50%;
             margin-left: 90px;
-            padding: 47px 42px 0px 42px;
+            padding: 46px 40px 0px 0px;
             font-size: 1.2em;
 
         }
 
         & #foto2{
             width: 29vw;
-            height: 35vh;
+            height: 21vh;
             max-width: 524px;
             max-height: 229px;
             margin: 50px 125px 0px 0px;
@@ -148,7 +141,7 @@
         & .seta-verde{
             width: 50px;
             height: 50px;
-            top: 7%;
+            top: 12%;
     }
     
     }

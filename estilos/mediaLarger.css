@@ -88,8 +88,10 @@
         }
 
         & #foto{
-            width: 359px;
-            height: 216px;
+            width: 28vw;
+            height: 20vh;
+            max-width: 359px;
+            max-height: 216px;
             margin: 66px 6% 0px 0px;
 
         }
@@ -128,9 +130,11 @@
         }
 
         & #foto2{
-            width: 359px;
-            height: 216px;
-            margin: 66px 10% 0px 0px;
+            width: 28vw;
+            height: 20vh;
+            max-width: 359px;
+            max-height: 216px;
+            margin: 66px 6% 0px 0px;
         }
         & .seta-verde{
             margin: auto;

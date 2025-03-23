@@ -69,6 +69,7 @@
         display: flex;
         flex-wrap: wrap;
         align-content: center;
+        gap: 50px;
         height: 620px;
 
         & h1{
@@ -93,12 +94,11 @@
 
         }
         & .seta-branco{
+            margin: auto;
             width: 50px;
-            height: 50px;
-            position: absolute;
-            top: 88%;
-            left: 50%;
-            transform: translate(-50%);
+            height: 8vh;
+            top: 12%;
+            
             
         }
     }
@@ -108,6 +108,7 @@
         display: flex;
         flex-wrap: wrap;
         align-content: center;
+        gap: 30px;
         
         height: 620px;
 
@@ -129,15 +130,15 @@
         & #foto2{
             width: 359px;
             height: 216px;
-            margin: 66px 6% 0px 0px;
+            margin: 66px 10% 0px 0px;
         }
         & .seta-verde{
+            margin: auto;
             width: 50px;
-            height: 50px;
-            position: absolute;
-            top: 131%;
-            left: 50%;
-            transform: translate(-50%);
+            position: relative;
+            height: 8vh;
+            top: 15%;
+
     }
     
     }

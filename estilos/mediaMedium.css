@@ -61,6 +61,7 @@
         & .seta-verde{
             width: 75px;
             top: 33%;
+            left: 2%;
         }
     
     }
@@ -86,6 +87,7 @@
         & .seta-branco{
             width: 75px;
             top: 8%;
+            left: 2%;
         }
     }
 
@@ -110,6 +112,7 @@
         & .seta-verde{
             width: 75px;
             top: 8%;
+            left: 2%;
     }
     
     }
@@ -142,7 +145,7 @@
             background-size: contain;
             position: relative;
             top: 12%;
-            left: 39%;
+            left: 41%;
         }
     }
 }

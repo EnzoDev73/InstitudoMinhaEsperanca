@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media screen and (min-width: 1280px) and (max-width: 1920px){
+@media screen and (min-width: 1281px) and (max-width: 1920px){
 
     nav{
         height: 85px;
@@ -42,7 +42,7 @@
         height: 720px;
 
         & #fundo{
-            background-image: url("../imagens/fundo-grande.png");
+            background-image: url("../imagens/fundo-desktop.png");
             background-size: cover;
             height: 290px;
             width: 100vw;
@@ -70,6 +70,7 @@
         flex-wrap: wrap;
         align-content: center;
         height: 620px;
+        background-color: #0367A6;
 
         & h1{
             width: 100vw;

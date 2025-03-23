@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+
     nav{
         height: 85px;
 
@@ -87,7 +89,7 @@
         & #foto{
             width: 359px;
             height: 216px;
-            margin: 66px 31px 0px 0px;
+            margin: 66px 130px 0px 0px;
 
         }
         & .seta-branco{
@@ -124,7 +126,7 @@
         & #foto2{
             width: 359px;
             height: 216px;
-            margin: 66px 31px 0px 0px;
+            margin: 66px 130px 0px 0px;
         }
         & .seta-verde{
             width: 50px;

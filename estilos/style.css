@@ -37,7 +37,7 @@ nav{
             border-radius: 25px;  
 
             & a{
-                text-decoration: none;
+                all: unset;
             }
         }
 

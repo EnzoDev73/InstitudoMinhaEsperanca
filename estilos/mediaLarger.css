@@ -48,14 +48,7 @@
             width: 100vw;
         }
     
-        & .botao{
-            width: 170px;
-            height: 50px;
-            font-size: 1em;
-            border-radius: 40px;
-            font-family: 'Poppins';
-            top: 27%;
-        } 
+        
 
         & .seta-verde{
             width: 50px;

@@ -48,15 +48,7 @@
             background-position: cover;
             
         }
-    
-        & .botao{
-            width: 230px;
-            height: 80px;
-            font-size: 1.3em;
-            border-radius: 40px;
-            font-family: 'Poppins';
-            top: 23%;
-        } 
+   
 
         & .seta-verde{
             width: 75px;

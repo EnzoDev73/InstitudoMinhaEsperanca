@@ -76,13 +76,11 @@
             margin-left: 40px;
             width: 100vw;
             height: 37px;
-            padding: 0px 0px 0px 90px;
             font-size: 1.6em;
         }
 
         & p{
             width: 50%;
-            margin-left: 90px;
             padding: 47px 42px 0px 42px;
             font-size: 1.2em;
             
@@ -93,7 +91,7 @@
             height: 35vh;
             max-width: 524px;
             max-height: 229px;
-            margin: 50px 125px 0px 0px;
+            margin: 50px 0px 0px 0px;
 
         }
         & .seta-branco{

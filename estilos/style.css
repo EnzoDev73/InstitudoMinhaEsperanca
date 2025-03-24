@@ -185,7 +185,7 @@ text-align: center;
         width: 70%;
         max-height: 10rem;
         object-fit: cover;
-        border-radius: 15px;
+        border-radius: 0px;
         margin-top: 56px;
     }
 

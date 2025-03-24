@@ -161,6 +161,7 @@ header{
 #pagina2{
     width: 100vw;
     height: 90vh;
+text-align: center;
 
     & h1{
         text-align: start;

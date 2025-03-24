@@ -63,7 +63,7 @@
         flex-wrap: wrap;
         align-content: center;
         gap: 50px;
-        height: 100vh;
+        height: 560px;
 
         & h1{
             margin-left: 90px;
@@ -94,7 +94,7 @@
             margin: auto;
             width: 50px;
             height: 8vh;
-            top: 12%;
+            top: 5%;
             
             
         }
@@ -107,7 +107,7 @@
         align-content: center;
         gap: 50px;
         
-        height: 100vh;
+        height: 560px;
 
         & h1{
             width: 100vw;
@@ -136,7 +136,7 @@
             width: 50px;
             position: relative;
             height: 8vh;
-            top: 15%;
+            top: 5%;
 
     }
     

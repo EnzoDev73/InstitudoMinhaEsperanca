@@ -39,7 +39,7 @@
 
     header{
 
-        height: 720px;
+        height: 100vhpx;
 
         & #fundo{
             background-image: url("../imagens/fundo-grande.png");
@@ -63,27 +63,29 @@
         flex-wrap: wrap;
         align-content: center;
         gap: 50px;
-        height: 620px;
+        height: 100vh;
 
         & h1{
+            margin-left: 90px;
             width: 100vw;
             height: 21px;
-            padding: 0px 0px 0px 90px;
+            padding: 0px;
             font-size: 1.6em;
         }
 
         & p{
-            width: 50%;
             margin-left: 90px;
-            padding: 46px 40px 0px 0px;
+            margin-right: 40px;
+            width: 50%;
+            padding: 46px 0px 0px 0px;
             font-size: 1.2em;
             
         }
 
         & #foto{
-            width: 28vw;
-            height: 20vh;
-            max-width: 359px;
+            width: 30vw;
+            height: 30vh;
+            max-width: 362px;
             max-height: 216px;
             margin: 66px 0px 0px 0px;
 
@@ -103,9 +105,9 @@
         display: flex;
         flex-wrap: wrap;
         align-content: center;
-        gap: 30px;
+        gap: 50px;
         
-        height: 620px;
+        height: 100vh;
 
         & h1{
             width: 100vw;
@@ -115,19 +117,19 @@
         }
 
         & p{
-            width: 50%;
             margin-left: 90px;
-            padding: 46px 40px 0px 0px;
+            margin-right: 40px;
+            width: 50%;
+            padding: 46px 0px 0px 0px;
             font-size: 1.2em;
-
         }
 
         & #foto2{
-            width: 28vw;
-            height: 20vh;
-            max-width: 359px;
+            width: 30vw;
+            height: 30vh;
+            max-width: 362px;
             max-height: 216px;
-            margin: 66px 6% 0px 0px;
+            margin: 66px 0px 0px 0px;
         }
         & .seta-verde{
             margin: auto;

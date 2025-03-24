@@ -67,15 +67,13 @@ nav{
 header{
 
     width: 100vw;
-    height: 700px; 
+    height: 100VH; 
     
     & img{
-        display: flex;
-        justify-items: center;
-        align-items: center;
         width: 100%;
         height: auto;
-        position: sticky;
+        position: relative;
+        top: 24%;
     }
     
     /*
@@ -108,7 +106,7 @@ header{
 #pagina1{
     text-align: center;
     width: 100vw;
-    height: 750px;
+    height: 100vh;
     background-color: #0367A6;
 
     & h1{
@@ -128,6 +126,14 @@ header{
         padding: 0px 30px;
     }
 
+    & img{
+        width: 90%;
+        max-height: 10rem;
+        object-fit: cover;
+        border-radius: 15px;
+        margin-top: 56px;
+    }
+/*
     & #foto{
         width: 80%; 
         height: 24%;
@@ -138,6 +144,7 @@ header{
         margin-top: 10%;
         border-radius: 15px 15px;
     } 
+        */
 
     & .seta-branco{
         width: 50px;

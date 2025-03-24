@@ -1,6 +1,6 @@
 @charset "utf-8";
 
- @media screen and (min-width: 768px) and (max-width: 1024px) {
+ @media screen and (min-width: 768px){
 
     nav{
         height: 100px;
@@ -39,8 +39,8 @@
 
     header{
 
-        height: 950px;
-
+        height: 100vh;
+/*
         & #fundo{
             width: 100vw;
             height: 300px;
@@ -48,7 +48,7 @@
             background-position: cover;
             
         }
-   
+   */
 
         & .seta-verde{
             width: 75px;

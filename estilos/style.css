@@ -14,6 +14,7 @@
 nav{
     width: 100vw;
     height: 70px;
+    text-align: center;
     background-color: white;
     border-bottom:  1px solid black;
 
@@ -64,10 +65,20 @@ nav{
 
 
 header{
-    text-align: center;
+
     width: 100vw;
     height: 700px; 
     
+    & img{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        position: sticky;
+    }
+    
+    /*
     & #fundo{
         width: 100%;
         height: 32%; 
@@ -78,6 +89,7 @@ header{
         position: relative;
         top: 19%; 
     }
+        */
     
     & .seta-verde{
         margin: auto;

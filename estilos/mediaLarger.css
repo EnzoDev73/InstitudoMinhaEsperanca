@@ -130,6 +130,7 @@
             max-width: 362px;
             max-height: 216px;
             margin: 66px 0px 0px 0px;
+            object-fit: contain;
         }
         & .seta-verde{
             margin: auto;

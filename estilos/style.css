@@ -166,7 +166,7 @@ header{
     } 
         */
 
-    & .seta-branco{
+    & img.seta-branco{
         width: 50px;
         height: auto;
         position: relative;
@@ -219,7 +219,8 @@ header{
         border-radius: 10px 10px;
     }
 */
-    & .seta-verde{
+    & img.seta-verde{
+        align-self: center;
         width: 50px;
         height: auto;
         position: relative;

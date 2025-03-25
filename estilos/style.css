@@ -89,8 +89,8 @@ header{
     }
         */
 
-    & .seta-verde{
-        width: 40px;
+    & img.seta-verde{
+        width: 50px;
         height: auto;
         position: relative;
         top: 50%;
@@ -115,7 +115,7 @@ header{
 #pagina1{
     text-align: center;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     background-color: #0367A6;
 
     & h1{
@@ -169,7 +169,7 @@ header{
 
 #pagina2{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     text-align: center;
 
     & h1{

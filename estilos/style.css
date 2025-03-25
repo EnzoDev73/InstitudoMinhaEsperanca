@@ -120,31 +120,35 @@ header{
 
 
 #pagina1{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     background-color: #0367A6;
 
     & h1{
-    text-align: start;
-    color: white;
-    font-family: 'Poppins';
-    font-weight: bold;
-    letter-spacing: 1px;
-    padding: 30px 30px;
+        align-self: flex-start;
+        color: white;
+        font-family: 'Poppins';
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding-left: 30px;
+        padding-top: 90px;
+        
     }
 
     & p{
+        padding: 30px 30px;
         color: white;
         font-family: 'Roboto';
         line-height: 2;
         text-align: justify;
-        padding: 0px 30px;
     }
 
-    & img{
+    & img.imagem{
         width: 70%;
-        max-height: 10rem;
+        height: 0rem;
         object-fit: cover;
         border-radius: 15px;
         margin-top: 56px;
@@ -164,13 +168,9 @@ header{
 
     & .seta-branco{
         width: 50px;
-        height: 50px;
-        margin: auto;
-        background-image: url("../imagens/seta-baixo-branco.png");
-        background-size: contain;
-        background-repeat: no-repeat;
+        height: auto;
         position: relative;
-        top:9%;
+        top: 0%;
     }
 } 
 

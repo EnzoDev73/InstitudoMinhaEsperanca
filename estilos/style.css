@@ -65,11 +65,11 @@ nav{
 
 
 header{
-
+    text-align: center;
     width: 100vw;
     height: 90VH; 
     
-    & img{
+    & img.imagem-inicio{
         width: 100%;
         height: auto;
         position: relative;
@@ -88,7 +88,15 @@ header{
         top: 19%; 
     }
         */
+
+    & .seta-verde{
+        width: 40px;
+        height: auto;
+        position: relative;
+        top: 50%;
+    }
     
+        /*
     & .seta-verde{
         margin: auto;
         width: 50px;
@@ -99,6 +107,7 @@ header{
         position: relative;
         top: 35%; 
     } 
+        */
 }
 
 
@@ -161,7 +170,7 @@ header{
 #pagina2{
     width: 100vw;
     height: 90vh;
-text-align: center;
+    text-align: center;
 
     & h1{
         text-align: start;
@@ -181,11 +190,11 @@ text-align: center;
         padding: 0px 30px;
     }
 
-& img{
+    & img{
         width: 70%;
         max-height: 10rem;
         object-fit: cover;
-        border-radius: 0px;
+        border-radius: 15px;
         margin-top: 56px;
     }
 

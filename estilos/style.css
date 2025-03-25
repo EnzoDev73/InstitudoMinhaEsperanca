@@ -256,5 +256,7 @@ footer{
         height: auto;
         align-self: center;
         margin-top: 40px;
+        position: relative;
+        right: 2%;
     }
 }

@@ -29,14 +29,10 @@
     }
 
     header{
+        background-image: url("../imagens/seta-verde.png");
+        background-size: cover;
+        background-position: center bottom;
         overflow-y: hidden;
-        & #inicio{
-            
-            & img.seta-verde{
-            width: 70px;
-            top: 6%;
-             }
-        }
 
        
     }

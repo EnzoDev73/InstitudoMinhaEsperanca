@@ -30,14 +30,9 @@
 
     header{
         overflow-y: hidden;
-        & #inicio{
-            
-            & img.seta-verde{
-            width: 70px;
-            top: 0%;
-             }
-        }
-
+        background-image: url("../imagens/seta-verde.png");
+        background-size: cover;
+        background-position: center bottom;
        
     }
 
@@ -45,6 +40,9 @@
         height: 80vh;
         flex-direction: row;
         gap: 10%;
+        background-image: url("../imagens/seta-branca.png");
+        background-size: cover;
+        background-position: center bottom;
 
         & h1{
             position: absolute;
@@ -60,19 +58,15 @@
             margin-right: 8%;
         }
 
-        & img.seta-branco{
-            position: absolute;
-            width: 70px;
-            top: 63rem;
-            left: 50%;
-            transform: translate(-50%);
-        }
     }
 
     #pagina2{
         height: 80vh;
         flex-direction: row;
         gap: 10%;
+        background-image: url("../imagens/seta-verde.png");
+        background-size: cover;
+        background-position: center bottom;
 
         & h1{
             position: absolute;
@@ -88,15 +82,6 @@
             margin-right: 8%;
         }
         
-
-        & img.seta-verde{
-            position: absolute;
-            width: 70px;
-            top: 93rem;
-            left: 50%;
-            transform: translate(-50%);
-            
-        }
     }
 
     footer{

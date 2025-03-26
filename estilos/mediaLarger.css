@@ -2,6 +2,10 @@
 
 @media screen and (min-width: 1024px){
 
+    *{
+        overflow-x: hidden;
+    }
+
     nav{
         height: 95px;
 
@@ -32,7 +36,7 @@
 
             & img.seta-verde{
             width: 70px;
-            top: 10%;
+            top: 6%;
              }
         }
 
@@ -42,43 +46,63 @@
     #pagina1{
         height: 80vh;
         flex-direction: row;
+        gap: 10%;
 
         & h1{
             position: absolute;
-            left: 2%;
         }
 
         & p{
-            padding: 0px 25% 0px 10%;
+            padding-right: 0px;
         }
 
         & img.imagem{
-            
-            padding: 0px;
-            margin: 0px;
+            width: 90rem;
+            height: 11rem;
+            margin-right: 8%;
         }
 
         & img.seta-branco{
             position: absolute;
             width: 70px;
-            top: 90rem;
+            top: 75rem;
             left: 50%;
             transform: translate(-50%);
         }
     }
 
     #pagina2{
-        height: 100vh;
+        height: 80vh;
+        flex-direction: row;
+        gap: 10%;
+
+        & h1{
+            position: absolute;
         }
 
+        & p{
+            padding-right: 0px;
+        }
+
+        & img.imagem{
+            width: 90rem;
+            height: 11rem;
+            margin-right: 8%;
+        }
+        
+
         & img.seta-verde{
+            position: absolute;
             width: 70px;
-            top: 13%;
+            top: 111rem;
+            left: 50%;
+            transform: translate(-50%);
+            
         }
     }
 
     footer{
-        height: 40vh;
+        height: 55vh;
 
         & p{
             text-align: center;
@@ -97,7 +121,7 @@
         }
 
         & .logo{
-            width: 8rem;
+            width: 10rem;
             margin-top: 45px;
             right: 3%;
         }

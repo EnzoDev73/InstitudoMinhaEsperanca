@@ -29,7 +29,7 @@ nav{
 
         & li{
             width: 80px;
-            padding: 5px;
+            padding: 8px;
             background-color: #0367A6;
             color: white;
             font-family: 'Poppins';
@@ -74,46 +74,21 @@ header{
         flex-direction: column;
         justify-content: center;
         
-    & img.imagem-inicio{
-        width: 100%;
-        height: auto;
-        position: relative;
-        bottom: 7%;
-    }
+        & img.imagem-inicio{
+            width: 100%;
+            height: auto;
+            position: relative;
+            bottom: 7%;
+        }
     
-    /*
-    & #fundo{
-        width: 100%;
-        height: 32%; 
-        background-image: url("../imagens/fundo.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center; 
-        position: relative;
-        top: 19%; 
-    }
-        */
 
-    & img.seta-verde{
-        align-self: center;
-        width: 50px;
-        height: auto;
-        position: relative;
-        top: 25%;
-    }
-    
-        /*
-    & .seta-verde{
-        margin: auto;
-        width: 50px;
-        height: 50px;
-        background-image: url("../imagens/seta-baixo-verde.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        position: relative;
-        top: 35%; 
-    } 
-        */
+        & img.seta-verde{
+            align-self: center;
+            width: 50px;
+            height: auto;
+            position: relative;
+            top: 25%;
+        }
     }
 }
 
@@ -152,18 +127,6 @@ header{
         object-fit: cover;
         border-radius: 15px;
     }
-/*
-    & #foto{
-        width: 80%; 
-        height: 24%;
-        background-image: url("../imagens/foto\ 1.jpg");
-        background-size: cover;  
-        margin: auto;
-        background-position: center center;
-        margin-top: 10%;
-        border-radius: 15px 15px;
-    } 
-        */
 
     & img.seta-branco{
         width: 50px;
@@ -206,17 +169,6 @@ header{
         border-radius: 15px;
     }
 
-/*
-    & #foto2{
-        max-width: 80%; 
-        height: 24%;
-        background-image: url("../imagens/crianças.jpg");
-        background-size: cover;  
-        margin: auto;
-        margin-top: 10%;
-        border-radius: 10px 10px;
-    }
-*/
     & img.seta-verde{
         align-self: center;
         width: 50px;

@@ -37,7 +37,7 @@
     }
 
     #pagina1{
-        height: 80vh;
+        height: 100vh;
         flex-direction: row;
         gap: 10%;
         background-image: url("../imagens/seta-branca.png");
@@ -64,7 +64,7 @@
     }
 
     #pagina2{
-        height: 80vh;
+        height: 100vh;
         flex-direction: row;
         gap: 10%;
         background-image: url("../imagens/seta-verde.png");

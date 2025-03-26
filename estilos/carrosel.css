@@ -74,7 +74,7 @@ h1{
 
 .carousel-control-prev, .carousel-control-next{
     position: absolute;
-    top: 107px;
+    top: 90px;
     opacity: 1;
 }
 
@@ -116,7 +116,7 @@ h1{
 #casamento{
     width: 300px;
     margin: auto;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
     
 
     & .carousel-inner{

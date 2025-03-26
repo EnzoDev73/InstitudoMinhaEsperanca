@@ -29,6 +29,7 @@
     }
 
     header{
+        height: 110vh;
         overflow-y: hidden;
         background-image: url("../imagens/seta-verde-G.png");
         background-size: cover;
@@ -82,8 +83,9 @@
         }
 
         & img.imagem{
-            width: 95rem;
-            height: 10rem;
+            width: 90rem;
+            height: 11rem;
+            margin-right: 10%;
         }
         
     }

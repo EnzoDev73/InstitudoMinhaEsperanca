@@ -30,7 +30,7 @@
 
     header{
         overflow-y: hidden;
-        background-image: url("../imagens/seta-verde.png");
+        background-image: url("../imagens/seta-verde-G.png");
         background-size: cover;
         background-position: center bottom;
        
@@ -40,7 +40,7 @@
         height: 80vh;
         flex-direction: row;
         gap: 10%;
-        background-image: url("../imagens/seta-branca.png");
+        background-image: url("../imagens/seta-branca-G.png");
         background-size: cover;
         background-position: center bottom;
         justify-content: space-between;
@@ -67,7 +67,7 @@
         height: 80vh;
         flex-direction: row;
         gap: 10%;
-        background-image: url("../imagens/seta-branca.png");
+        background-image: url("../imagens/seta-verde-G.png");
         background-size: cover;
         background-position: center bottom;
 

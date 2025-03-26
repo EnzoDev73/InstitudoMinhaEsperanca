@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 821px) and (max-width: 1080px){
 
     *{
         overflow-x: hidden;
@@ -41,13 +41,18 @@
         height: 80vh;
         flex-direction: row;
         gap: 10%;
+        background-image: url("../imagens/seta-branca.png");
+        background-size: cover;
+        background-position: center bottom;
 
         & h1{
             position: absolute;
+            padding-top:10%;
+            padding-left: 11%;
         }
 
         & p{
-            padding-right: 0px;
+            padding-left: 11%;
         }
 
         & img.imagem{
@@ -56,26 +61,24 @@
             margin-right: 8%;
         }
 
-        & img.seta-branco{
-            position: absolute;
-            width: 70px;
-            top: 75rem;
-            left: 50%;
-            transform: translate(-50%);
-        }
     }
 
     #pagina2{
         height: 80vh;
         flex-direction: row;
         gap: 10%;
+        background-image: url("../imagens/seta-verde.png");
+        background-size: cover;
+        background-position: center bottom;
 
         & h1{
             position: absolute;
+            padding-top:10%;
+            padding-left: 11%;
         }
 
         & p{
-            padding-right: 0px;
+            padding-left: 11%;
         }
 
         & img.imagem{
@@ -84,15 +87,6 @@
             margin-right: 8%;
         }
         
-
-        & img.seta-verde{
-            position: absolute;
-            width: 70px;
-            top: 111rem;
-            left: 50%;
-            transform: translate(-50%);
-            
-        }
     }
 
     footer{

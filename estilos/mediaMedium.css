@@ -28,23 +28,23 @@
 
     header{
 
-        & #inicio{
-
-            & img.seta-verde{
-            width: 70px;
-            top: 25%;
-             }
-        }
+        background-image: url("../imagens/seta-verde-M.png");
+        background-size: cover;
+        background-position: center bottom;
 
        
     }
 
     #pagina1{
         height: 100vh;
+        background-image: url("../imagens/seta-branca-M.png");
+        background-size: cover;
+        background-position: center bottom;
 
         & h1{
+            
             padding-left: 100px;
-            padding-top: 70px;
+            padding-top: 50px;
         }
 
         & p{
@@ -53,22 +53,23 @@
         }
 
         & img.imagem{
-            width: 55%;
-            height: 15rem;
+            width: 60%;
+            height: 10rem;
         }
 
-        & img.seta-branco{
-            width: 70px;
-            top: 16%;
-        }
+        
+        
     }
 
     #pagina2{
         height: 100vh;
+        background-image: url("../imagens/seta-verde-M.png");
+        background-size: cover;
+        background-position: center bottom;
 
         & h1{
             padding-left: 100px;
-            padding-top: 70px;
+            padding-top: 50px;
         }
 
         & p{
@@ -77,14 +78,10 @@
         }
 
         & img.imagem{
-            width: 55%;
-            height: 15rem;
+            width: 60%;
+            height: 10rem;
         }
 
-        & img.seta-verde{
-            width: 70px;
-            top: 13%;
-        }
     }
 
     footer{

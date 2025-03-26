@@ -4,11 +4,13 @@
 
     nav{
         height: 95px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
 
         & ul{
             height: 100%;
             gap: 15px;
-            margin-right: 30px;
 
             & li{
                 width: 100px;
@@ -18,11 +20,9 @@
             }
         }
 
-        & #logo{
-            width: 145px;
-            height: 70px;
-            left: 2%;
-            top: 13px;  
+        & img#logo{
+            width: 120px;
+            
         }
     }
 

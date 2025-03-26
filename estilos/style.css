@@ -17,19 +17,23 @@ nav{
     text-align: center;
     background-color: white;
     border-bottom:  1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 
     & ul{
         height: 100%;
         display: flex;
-        justify-content: end;
         align-items: center;
         list-style: none;
+        margin-right: 4%;
         gap: 15px;
-        margin-right: 30px;
+        
 
         & li{
             width: 80px;
-            padding: 8px;
+            padding: 4px;
             background-color: #0367A6;
             color: white;
             font-family: 'Poppins';
@@ -39,6 +43,7 @@ nav{
 
             & a{
                 all: unset;
+                padding: 8px 15px;
             }
         }
 
@@ -48,18 +53,12 @@ nav{
         }
     }
     
-    & #logo{ 
-
-            width: 100px;
-            height: 50px;
-            margin: auto;
-            position: absolute;
-            background-image: url("../imagens/WhatsApp\ Image\ 2025-03-17\ at\ 21.11.34.jpeg");
-            background-size: contain;
-            background-repeat: no-repeat;
-            left: 2%;
-            top: 13px;  
-}
+    & img#logo{
+        width: 100px;
+        margin-left: 3%;
+        height: auto;
+        object-fit: contain;
+    }
 }
 
 

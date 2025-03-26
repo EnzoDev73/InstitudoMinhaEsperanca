@@ -22,18 +22,16 @@
             }
         }
 
-        & #logo{
-            width: 145px;
-            height: 70px;
-            left: 2%;
-            top: 13px;  
-        }
+        & img#logo{
+            width: 125px;
+        }  
+        
     }
 
     header{
-
+        overflow-y: hidden;
         & #inicio{
-
+            
             & img.seta-verde{
             width: 70px;
             top: 6%;
